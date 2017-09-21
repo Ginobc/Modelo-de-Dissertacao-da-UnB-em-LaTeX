@@ -1,0 +1,32 @@
+%% Não editar este documento, ele cria as listas automáticas dos cabeçalhos
+
+\pdfbookmark[0]{\contentsname}{toc}
+\chapter*{Sumário}
+\renewcommand\contentsname{}
+\tableofcontents*
+
+\clearpage
+
+\pdfbookmark[0]{\listfigurename}{lof}
+\chapter*{Lista de Figuras}
+\renewcommand\listfigurename{}
+\listoffigures*
+\clearpage
+
+\pdfbookmark[0]{\listtablename}{lot}
+\chapter*{Lista de Tabelas}
+\renewcommand\listtablename{}
+\listoftables*
+\clearpage
+
+\pdfbookmark[0]{\listalgorithmcfname}{loA}
+%\chapter*{Lista de Algoritmos}
+%\renewcommand\listalgorithmcfname{}
+\renewcommand\numberline[1]{
+	\leftskip -0.7em
+	\rightskip 1.6em
+	\parindent 0em
+	Algoritmo \normalfont #1 $-$ }
+\makeatother
+\listofalgorithms
+\clearpage

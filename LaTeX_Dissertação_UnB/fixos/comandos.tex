@@ -1,0 +1,110 @@
+%% Não editar nada aqui, a não ser que queira adicionar novos comandos automáticos de entrada.
+
+\renewcommand*{\cftchaptername}{\hspace{-0.5in}}
+\cftsetindents{section}{0.7in}{0.5in}
+\cftsetindents{subsection}{1.0in}{0.5in}
+\cftsetindents{subsubsection}{1.5in}{0.6in}
+\cftsetindents{paragraph}{2.0in}{0.7in}
+%%
+\newcommand*{\justifyheading}{\raggedleft}
+\titleformat{\chapter}
+{\normalfont\huge\bfseries\justifyheading}{ \thechapter}
+{20pt}{\Huge}
+%%
+\counterwithin{figure}{chapter}		% ordena as figuras por seção
+%%
+\renewcommand{\backrefpagesname}{Citado na(s) página(s):~}
+\renewcommand{\backref}{}
+\renewcommand*{\backrefalt}[4]{
+	\ifcase #1 %
+		Nenhuma citação no texto.%
+	\or
+		Citado na página #2.%
+	\else
+		Citado #1 vezes nas páginas #2.%
+	\fi}
+% Novos Comandos
+\newcommand{\paginas			}[1]{\def\imprimirpaginas{#1}}
+\newcommand{\estado				}[1]{\def\imprimirestado{#1}}
+\newcommand{\ano				}[1]{\def\imprimirano{#1}}
+\newcommand{\sigla				}[1]{\def\imprimirsigla{#1}}
+\newcommand{\tituloen			}[1]{\def\imprimirtituloen{#1}}
+\newcommand{\tipo 				}[1]{\def\imprimirtipo{#1}}
+\newcommand{\grau 				}[1]{\def\imprimirgrau{#1}}
+\newcommand{\autorRES 			}[1]{\def\imprimirautorRES{#1}}
+\newcommand{\faculdade			}[1]{\def\imprimirfaculdade{#1}}
+\newcommand{\departamento		}[1]{\def\imprimirdepartamento{#1}}
+\newcommand{\curso				}[1]{\def\imprimircurso{#1}}
+\newcommand{\course				}[1]{\def\imprimircourse{#1}}
+\newcommand{\palavraChaveUm		}[1]{\def\imprimirpalavrachaveum{#1}}
+\newcommand{\palavraChaveDois	}[1]{\def\imprimirpalavrachavedois{#1}}
+\newcommand{\palavraChaveTres	}[1]{\def\imprimirpalavrachavetres{#1}}
+\newcommand{\palavraChaveQuatro	}[1]{\def\imprimirpalavrachavequatro{#1}}
+\newcommand{\cdu				}[1]{\def\imprimircdu{#1}}
+\newcommand{\dataDaAprovacao	}[1]{\def\imprimirdatadaaprovacao{#1}}
+\newcommand{\membroConvidadoUm	}[1]{\def\imprimirmembroconvidadoum{#1}}
+\newcommand{\membroConvidadoDois}[1]{\def\imprimirmembroconvidadodois{#1}}
+\newcommand{\membroConvidadoTres}[1]{\def\imprimirmembroconvidadotres{#1}}
+\newcommand\BackgroundPic{%
+	\put(0,0){%
+		\parbox[b][\paperheight]{\paperwidth}{%
+			\vfill
+			\centering
+			\includegraphics[width=615pt,height=\paperheight]{figuras/capa.eps}%
+			\vfill
+		}
+	}
+}
+
+\renewcommand{\imprimircapa}{%
+	\begin{capa}%
+		\center
+		\AddToShipoutPicture*{\BackgroundPic}
+		
+		\vspace*{300pt}
+		
+		{\ABNTEXchapterfont\bfseries\Large{\MakeUppercase\imprimirtitulo}}
+		%{\textbf{\large\imprimirinstituicao}}
+		%\par
+		%{\textbf{\large\imprimircurso}}
+		
+		\vspace{45pt}	
+		
+		\ABNTEXchapterfont \textbf{{\Large{\imprimirautor}}}
+		
+		\vspace*{45pt}
+		
+		{\ABNTEXchapterfont\bfseries\large \imprimirtipotrabalho}
+		
+		\vspace{-12pt}
+		{\ABNTEXchapterfont\textbf{\large \imprimircurso}}
+		
+		\vspace{110pt}
+		
+		%\textbf{{\large \imprimirlocal}},
+		%\textbf{{\large \imprimirdatadaaprovacao}}
+		{\ABNTEXchapterfont\textbf{\LARGE \MakeUppercase\imprimirinstituicao}}
+		
+		\vspace{25pt}
+		
+		{\ABNTEXchapterfont\textbf{\Large \imprimirfaculdade}}
+		
+		{\ABNTEXchapterfont\textbf{\LARGE \imprimirdepartamento}}
+		
+	\end{capa}
+}
+%%
+\definecolor{blue}{RGB}{41,5,195}
+\makeatletter
+\hypersetup{
+	colorlinks=true,       		% false: boxed links; true: colored links
+	linkcolor=blue,          	% color of internal links
+	citecolor=blue,        		% color of links to bibliography
+	filecolor=magenta,      	% color of file links
+	urlcolor=blue,
+	bookmarksdepth=4
+}
+\makeatother
+\setlength{\parindent}{1.3cm}
+\setlength{\parskip}{0.2cm}  
+\makeindex

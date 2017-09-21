@@ -1,0 +1,34 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.6 }
+
+\bibitem[Colherinhas et al. 2017]{COLHERINHAS20171623}
+\abntrefinfo{Colherinhas et al.}{COLHERINHAS et al.}{2017}
+{COLHERINHAS, G.~B.; SHZU, M.~A.; AVILA, S.~M.; MORAIS, M.~V. de. Wind tower
+  vibration controlled by a pendulum tmd using genetic optimization: Beam
+  modelling.
+\emph{Procedia Engineering}, v.~199, n. Supplement C, p. 1623 -- 1628, 2017.
+ISSN 1877-7058.
+X International Conference on Structural Dynamics, EURODYN 2017.
+Dispon{\'\i}vel em:
+  \url{http://www.sciencedirect.com/science/article/pii/S1877705817335166}.}
+
+\bibitem[Ferreira 2015]{alvaro2015}
+\abntrefinfo{Ferreira}{FERREIRA}{2015}
+{FERREIRA, A.~C. Analytical and numerical modeling of vocal tract in vowel
+  phonation.
+CILAMCE: XXXVI Ibero-Latin American Congress on Computational Methods in
+  Engineering, 2015.}
+
+\bibitem[Ferreira, Colherinhas e Morais 2017]{alvaro2017}
+\abntrefinfo{Ferreira, Colherinhas e Morais}{FERREIRA; COLHERINHAS;
+  MORAIS}{2017}
+{FERREIRA, A.~C.; COLHERINHAS, G.~B.; MORAIS, M.~V. de. Identification of a
+  vocal tract configuration using genetic algorithms.
+DINAME 2017 - Proceedings of the XVII International Symposium on Dynamic
+  Problems of Mechanics, 2017.}
+
+\end{thebibliography}
