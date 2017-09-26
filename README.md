@@ -1,6 +1,6 @@
 # Modelo-de-Dissertacao-da-UnB-em-LaTeX
 
-Este é um modelo automatizado desenvolvido em LaTeX para as dissertação da Universidade de Brasília (UnB).
+Este é um modelo automatizado desenvolvido em LaTeX para as dissertações da Universidade de Brasília (UnB), em específico do Departamento de Engenharia Mecânica.
 
 Este modelo de dissertação possui um arquivo mestre (Dissetação.tex) que chama diversos outros arquivos em 2 pastas importantes (fixos e editáveis) com os arquivos .tex correspondentes aos itens de criação automática e aos capítulos da dissertação.
 
