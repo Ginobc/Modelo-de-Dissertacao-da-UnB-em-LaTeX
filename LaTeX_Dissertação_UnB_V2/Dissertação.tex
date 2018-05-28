@@ -1,0 +1,52 @@
+%% Adaptado por Gino Bertollucci, 09/2017
+%% Atualizado por Gino Bertollucci, 05/2018
+
+\input{fixos/pacotes}
+\input{fixos/comandos}
+\input{editaveis/documento/informacoes}
+
+%% IMPORTANTE %%
+% Todos os seus dados pessoais devem ser inseridos no arquivo informações, eles serão automaticamente adicionados na dissertação! %
+
+\begin{document}
+\frenchspacing 
+    \imprimircapa
+
+\input{fixos/folhaDeAprovacao}
+\input{fixos/fichaCatalografica}
+\input{editaveis/documento/dedicatoria}
+\input{editaveis/resumo/resumo}
+\input{editaveis/resumo/abstract}
+
+%% Selecione o idioma da sua dissertação:
+\selectlanguage{brazil}
+
+\input{fixos/listasAutomaticas}
+\input{editaveis/documento/abreviaturas}
+\input{editaveis/documento/simbolos}
+
+\pagestyle{plain}
+\pagenumbering{arabic}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{editaveis/introducao/introducao}
+\input{editaveis/capitulo_1/capitulo_1}
+\input{editaveis/capitulo_2/capitulo_2}
+\input{editaveis/conclusao/conclusao}
+	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\bookmarksetup{startatroot} 
+
+\postextual
+
+\bibliographystyle{ieeetr}
+\bibliography{bibfile}
+
+%\input{editaveis/anexoseapendices/apendices}
+%\input{editaveis/anexoseapendices/anexos}
+\printindex
+
+
+\end{document}
