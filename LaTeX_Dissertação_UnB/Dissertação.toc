@@ -1,5 +1,7 @@
 \changetocdepth {4}
 \select@language {brazil}
+\select@language {brazil}
+\select@language {brazil}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
@@ -16,19 +18,9 @@
 \contentsline {section}{\numberline {3.2}Segunda Se\IeC {\c c}\IeC {\~a}o}{4}{section.3.2}
 \contentsline {section}{\numberline {3.3}Terceira Se\IeC {\c c}\IeC {\~a}o}{4}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Primeira Subse\IeC {\c c}\IeC {\~a}o da Terceira Se\IeC {\c c}\IeC {\~a}o}{4}{subsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.1.1}Primeira SubSubse\IeC {\c c}\IeC {\~a}o da Terceira Se\IeC {\c c}\IeC {\~a}o}{4}{subsubsection.3.3.1.1}
 \contentsline {subsection}{\numberline {3.3.2}Segunda Subse\IeC {\c c}\IeC {\~a}o da Terceira Se\IeC {\c c}\IeC {\~a}o}{4}{subsection.3.3.2}
 \contentsline {subsection}{\numberline {3.3.3}Terceira Subse\IeC {\c c}\IeC {\~a}o da Terceira Se\IeC {\c c}\IeC {\~a}o}{4}{subsection.3.3.3}
 \contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Conclus\IeC {\~a}o}}{5}{chapter.4}
 \vspace {\cftbeforechapterskip }
 \contentsline {chapter}{\uppercase {Refer\^encias}}{6}{section*.15}
-\renewcommand *{\cftappendixname }{AP\^ENDICE \space }
-\setlength {\cftpartindent }{\cftlastnumwidth } \setlength {\cftpartnumwidth }{2em}
-\cftinsert {A}
-\contentsline {part}{\uppercase {Ap\^endices}}{7}{section*.16}
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Ap\IeC {\^e}ndice1}}{8}{appendix.A}
-\cftinsert {AAA}
-\renewcommand *{\cftappendixname }{ANEXO \space }
-\setlength {\cftpartindent }{\cftlastnumwidth } \setlength {\cftpartnumwidth }{2em}
-\cftinsert {A}
-\contentsline {part}{\uppercase {Anexos}}{9}{section*.17}
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Anexo1}}{10}{appendix.anexochapback.1}

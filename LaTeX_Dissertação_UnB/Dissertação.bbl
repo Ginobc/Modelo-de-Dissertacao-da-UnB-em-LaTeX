@@ -3,14 +3,13 @@
 \setlength{\labelsep}{0pt}\begin{thebibliography}{}
 \providecommand{\abntrefinfo}[3]{}
 \providecommand{\abntbstabout}[1]{}
-\abntbstabout{v-1.9.6 }
+\abntbstabout{v-1.9.2 }
 
-\bibitem[Colherinhas et al. 2017]{COLHERINHAS20171623}
+\bibitem[Colherinhas et al. 2017]{colherinhas2017}
 \abntrefinfo{Colherinhas et al.}{COLHERINHAS et al.}{2017}
-{COLHERINHAS, G.~B.; SHZU, M.~A.; AVILA, S.~M.; MORAIS, M.~V. de. Wind tower
-  vibration controlled by a pendulum tmd using genetic optimization: Beam
-  modelling.
-\emph{Procedia Engineering}, v.~199, n. Supplement C, p. 1623 -- 1628, 2017.
+{COLHERINHAS, G.~B. et al. Wind tower vibration controlled by a pendulum tmd
+  using genetic optimization: Beam modelling.
+\emph{Procedia Engineering}, v.~199, p. 1623 -- 1628, 2017.
 ISSN 1877-7058.
 X International Conference on Structural Dynamics, EURODYN 2017.
 Dispon{\'\i}vel em:
@@ -23,12 +22,10 @@ Dispon{\'\i}vel em:
 CILAMCE: XXXVI Ibero-Latin American Congress on Computational Methods in
   Engineering, 2015.}
 
-\bibitem[Ferreira, Colherinhas e Morais 2017]{alvaro2017}
-\abntrefinfo{Ferreira, Colherinhas e Morais}{FERREIRA; COLHERINHAS;
-  MORAIS}{2017}
-{FERREIRA, A.~C.; COLHERINHAS, G.~B.; MORAIS, M.~V. de. Identification of a
-  vocal tract configuration using genetic algorithms.
-DINAME 2017 - Proceedings of the XVII International Symposium on Dynamic
-  Problems of Mechanics, 2017.}
+\bibitem[Morais et al. 2009]{morais2009}
+\abntrefinfo{Morais et al.}{MORAIS et al.}{2009}
+{MORAIS, M. V.~G. et al. Dynamic ehavior analysis of wind turbine towers.
+Congreso de Métodos Numéricos en Ingeniería, Barcelona, 29 junio al 2 de
+  julio, SEMNI, España, 2009.}
 
 \end{thebibliography}

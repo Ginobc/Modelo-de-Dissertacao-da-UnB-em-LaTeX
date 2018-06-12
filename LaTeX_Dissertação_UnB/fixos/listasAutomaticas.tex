@@ -1,7 +1,6 @@
-%% Não editar este documento, ele cria as listas automáticas dos cabeçalhos
-
 \pdfbookmark[0]{\contentsname}{toc}
 \chapter*{Sumário}
+%\chapter*{Summary} % caso o trabalho esteja em inglês
 \renewcommand\contentsname{}
 \tableofcontents*
 
@@ -9,24 +8,26 @@
 
 \pdfbookmark[0]{\listfigurename}{lof}
 \chapter*{Lista de Figuras}
+%\chapter*{List of Figures} % caso o trabalho esteja em inglês
 \renewcommand\listfigurename{}
 \listoffigures*
 \clearpage
 
 \pdfbookmark[0]{\listtablename}{lot}
 \chapter*{Lista de Tabelas}
+%\chapter*{List of Tables} % caso o trabalho esteja em inglês
 \renewcommand\listtablename{}
 \listoftables*
 \clearpage
 
 \pdfbookmark[0]{\listalgorithmcfname}{loA}
-%\chapter*{Lista de Algoritmos}
+%\chapter*{List of Algorithms}
 %\renewcommand\listalgorithmcfname{}
 \renewcommand\numberline[1]{
 	\leftskip -0.7em
 	\rightskip 1.6em
 	\parindent 0em
-	Algoritmo \normalfont #1 $-$ }
+	Algorithm \normalfont #1 $-$ }
 \makeatother
 \listofalgorithms
 \clearpage
