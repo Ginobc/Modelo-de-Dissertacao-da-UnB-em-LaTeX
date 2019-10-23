@@ -144,6 +144,8 @@
   \renewcommand{\subsectionautorefname}{subse{\c c}\~ao}
   \renewcommand{\subsubsectionautorefname}{subse{\c c}\~ao}
   \renewcommand{\paragraphautorefname}{subse{\c c}\~ao}
+  \renewcommand{\listadesiglasname}{Lista de Abreviaturas e Siglas}
+  \renewcommand{\listadesimbolosname}{Lista de S\'imbolos}
 }
 \addto\captionsenglish{% ingles
   %% adjusts names from abnTeX2

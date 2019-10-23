@@ -1,4 +1,5 @@
 %% Adaptado por Gino Bertollucci, 09/2017
+%% Atualizado por Gino Bertollucci, 05/2018
 
 \input{fixos/pacotes}
 \input{fixos/comandos}
@@ -16,6 +17,11 @@
 \input{editaveis/documento/dedicatoria}
 \input{editaveis/resumo/resumo}
 \input{editaveis/resumo/abstract}
+
+%% Selecione o idioma da sua dissertação:
+\selectlanguage{brazil}
+%\selectlanguage{english} % Caso esteja em inglês
+
 \input{fixos/listasAutomaticas}
 \input{editaveis/documento/abreviaturas}
 \input{editaveis/documento/simbolos}
@@ -36,10 +42,11 @@
 
 \postextual
 
+%\bibliographystyle{ieeetran}
 \bibliography{bibfile}
 
-\input{editaveis/anexoseapendices/apendices}
-\input{editaveis/anexoseapendices/anexos}
+%\input{editaveis/anexoseapendices/apendices}
+%\input{editaveis/anexoseapendices/anexos}
 \printindex
 
 
